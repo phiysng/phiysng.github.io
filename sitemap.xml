@@ -2,30 +2,32 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://phiysng.github.io/tags/cpp/</loc>
+    <loc>http://example.org/tags/cpp/</loc>
     <lastmod>2022-08-14T16:25:18+08:00</lastmod>
   </url><url>
-    <loc>https://phiysng.github.io/blog/2022-08-14-cpp_type_traits/</loc>
+    <loc>http://example.org/post/cpp_type_traits/</loc>
     <lastmod>2022-08-14T16:25:18+08:00</lastmod>
   </url><url>
-    <loc>https://phiysng.github.io/</loc>
+    <loc>http://example.org/post/</loc>
     <lastmod>2022-08-14T16:25:18+08:00</lastmod>
   </url><url>
-    <loc>https://phiysng.github.io/post/</loc>
+    <loc>http://example.org/tags/</loc>
     <lastmod>2022-08-14T16:25:18+08:00</lastmod>
   </url><url>
-    <loc>https://phiysng.github.io/tags/</loc>
+    <loc>http://example.org/tags/type-traits/</loc>
     <lastmod>2022-08-14T16:25:18+08:00</lastmod>
   </url><url>
-    <loc>https://phiysng.github.io/tags/type-traits/</loc>
+    <loc>http://example.org/</loc>
     <lastmod>2022-08-14T16:25:18+08:00</lastmod>
   </url><url>
-    <loc>https://phiysng.github.io/blog/2022-08-14-%E5%AE%9A%E4%B9%89%E5%90%8C%E4%B8%80%E7%B1%BB%E5%9E%8B%E7%9A%84%E5%8F%AF%E5%8F%98%E5%8F%82%E6%95%B0%E6%A8%A1%E6%9D%BF/</loc>
+    <loc>http://example.org/post/cpp_variatic_template_of_same_type/</loc>
     <lastmod>2022-08-14T16:24:17+08:00</lastmod>
   </url><url>
-    <loc>https://phiysng.github.io/blog/2022-08-14-hello-world/</loc>
+    <loc>http://example.org/post/my-first-post/</loc>
     <lastmod>2022-08-14T16:15:12+08:00</lastmod>
   </url><url>
-    <loc>https://phiysng.github.io/categories/</loc>
+    <loc>http://example.org/categories/</loc>
+  </url><url>
+    <loc>http://example.org/series/</loc>
   </url>
 </urlset>

@@ -1,265 +1,151 @@
 <!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en-us">
+<html lang="en">
 <head>
-  <meta http-equiv="content-type" content="text/html; charset=utf-8">
-
-  
-  <meta name="viewport" content="width=device-width,minimum-scale=1,maximum-scale=1">
-
-  
-    
-    
-      <link href="/css/fonts.css" rel="stylesheet" type="text/css">
-    
-  
-
-  
-  <title>phiysng</title>
-
-  
-  
-  <link rel="stylesheet" href="/css/hugo-octopress.css">
-
-  
-  
-
-  
-    <link rel="stylesheet" href="/css/fork-awesome.min.css">
-  
-
-  
-  <link href="https://phiysng.github.io/favicon.png" rel="icon">
-
-  
-  <link href="/index.xml" rel="alternate" type="application/rss+xml" title="phiysng" />
-
-  <meta name="description" content="" />
-  <meta name="keywords" content="">
-  <meta name="author" content="Author">
-
-  
-  <meta name="generator" content="Hugo 0.101.0" />
-
-  
-  
-
-  
-  
-
-  
-  
+<meta charset="UTF-8">
+<title>Vitae - All about static site generation</title>
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="generator" content="Hugo 0.101.0" />
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="keywords" content="hugo, vitae, theme, static">
+<meta name="description" content="Vitae is a blog theme for Hugo that focuses on your content.">
+<link rel="stylesheet" type="text/css" media="screen" href="/css/normalize.css" />
+<link rel="stylesheet" type="text/css" media="screen" href="/css/main.css" />
+<link rel="stylesheet" type="text/css" media="screen" href="/css/all.css" /><link rel="stylesheet" href="/css/katex.css" crossorigin="anonymous">
+<script defer src="/js/katex.js"  integrity="sha384-PFWG8XW41D5NzhNv5FegM1CUkw9nNLdWug8DuwnUoNEVop9n5frjcnbtsZtxTNjw" crossorigin="anonymous"></script>
+<script defer src="/js/auto-render.js" integrity="sha384-EN2q+JG5/3Z8gD7hT5WZqq+W+9wQR4P3IezfuZmGG5RkNXaaaks85seDJO7WkZlY" crossorigin="anonymous" onload="renderMathInElement(document.body);"></script>
+<script>
+document.addEventListener("DOMContentLoaded", function() { renderMathInElement(document.body, { delimiters: [ {left: "$$", right: "$$", display: true}, {left: "$", right: "$", display: false} ] }); });
+</script>
+<link rel="alternate" type="application/rss+xml" href="http://example.org/index.xml" title="Vitae">
 
 
 
+
+<meta property="og:title" content="Vitae" />
+<meta property="og:description" content="Vitae is a blog theme for Hugo that focuses on your content." />
+<meta property="og:type" content="website" />
+<meta property="og:url" content="http://example.org/" />
+
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Vitae"/>
+<meta name="twitter:description" content="Vitae is a blog theme for Hugo that focuses on your content."/>
+
+<meta itemprop="name" content="Vitae">
+<meta itemprop="description" content="Vitae is a blog theme for Hugo that focuses on your content.">
 </head>
 <body>
-
-
-<header role="banner">
-<hgroup>
-  
-  <h1><a href="https://phiysng.github.io/">phiysng</a></h1>
-    <h2>你好,陌生人</h2>
-</hgroup></header>
-
-
-<nav role="navigation">
-<fieldset class="mobile-nav">
-  
-  <select onchange="location = this.value;">
-    <option value="">Navigate…</option>
-      
-  </select>
-</fieldset>
-
-
-<ul class="main-navigation">
-  
-  
-</ul>
-
-<ul class="subscription">
-  
-    
-        <a href="https://phiysng.github.io/index.xml" target="_blank" type="application/rss+xml" title="RSS" rel="noopener noreferrer"><i class="fa fa-rss-square fa-lg"></i></a>
-    
-  
-</ul>
-
-
-  <form action="https://www.google.com/search" method="get" target="_blank" rel="noopener noreferrer">
-    <fieldset role="search">
-      <input class="search" type="text" name="q" results="0" placeholder="Search"/>
-      <input type="hidden" name="q" value="site:https://phiysng.github.io/" />
-    </fieldset>
-  </form>
-
-</nav>
-
-
-
-
-  
-
-<div id="main">
-  <div id="content">
-    <div class="blog-index">
-      
-      
-        
-        <article>
-          
-          
-
 <header>
-  <p class="meta">Aug 14, 2022
-     - 4 minute read 
-     - <a href="https://phiysng.github.io/blog/2022-08-14-cpp_type_traits/#disqus_thread">Comments</a>
-
-    
-  </p>
-  <h1 class="entry-title">
-    <a href="https://phiysng.github.io/blog/2022-08-14-cpp_type_traits/">Cpp_type_traits</a>
-  </h1>
-</header>
-
-          
-            <p>C++的类型特征(type traits) CppCon /// &lt;summary&gt; /// template meta programming /// &lt;/summary&gt; namespace tpl { template&lt;int N&gt; struct abs { static constexpr int value = N &lt; 0 ? (-N) : N; }; template&lt; unsigned M, unsigned N&gt; struct gcd { static int const value = gcd&lt;N, M% N&gt;::value; }; /// &lt;summary&gt; /// partial specialized version gcd(M,0) = M /// &lt;/summary&gt; template&lt;unsigned M&gt; struct gcd&lt; M, 0&gt; { static_assert(M != 0); static int const value = M; }; /// &lt;summary&gt; /// rank base condition.</p>
-            
-              <footer>
-                <a href="https://phiysng.github.io/blog/2022-08-14-cpp_type_traits/" rel="full-article">Would you like to know more? →</a>
-              </footer>
-            
-          
-        </article>
-        
-        <article>
-          
-          
-
-<header>
-  <p class="meta">Aug 14, 2022
-     - 0 minute read 
-     - <a href="https://phiysng.github.io/blog/2022-08-14-%E5%AE%9A%E4%B9%89%E5%90%8C%E4%B8%80%E7%B1%BB%E5%9E%8B%E7%9A%84%E5%8F%AF%E5%8F%98%E5%8F%82%E6%95%B0%E6%A8%A1%E6%9D%BF/#disqus_thread">Comments</a>
-
-    
-  </p>
-  <h1 class="entry-title">
-    <a href="https://phiysng.github.io/blog/2022-08-14-%E5%AE%9A%E4%B9%89%E5%90%8C%E4%B8%80%E7%B1%BB%E5%9E%8B%E7%9A%84%E5%8F%AF%E5%8F%98%E5%8F%82%E6%95%B0%E6%A8%A1%E6%9D%BF/">定义同一类型的可变参数模板</a>
-  </h1>
-</header>
-
-          
-            <p></p>
-            
-          
-        </article>
-        
-        <article>
-          
-          
-
-<header>
-  <p class="meta">Aug 14, 2022
-     - 1 minute read 
-     - <a href="https://phiysng.github.io/blog/2022-08-14-hello-world/#disqus_thread">Comments</a>
-
-    
-  </p>
-  <h1 class="entry-title">
-    <a href="https://phiysng.github.io/blog/2022-08-14-hello-world/">Hello World</a>
-  </h1>
-</header>
-
-          
-            <p>第一篇Hugo文章 void main() { } print(&#34;hello world&#34;) 编码·计算机背后的密码是本不错的入门书籍。</p>
-            
-          
-        </article>
-        
-      
-      
-      
-
-
-
-
-
-
-  
-    </div>
-    
-
-<aside class="sidebar thirds">
-  <section class="first odd">
-
-    
-
-    <p>
-      
-    </p>
-  </section>
-
-
-
-  
-  <ul class="sidebar-nav">
-    <li class="sidebar-nav-item">
-      
-      
-      
-      
-      
-         
-      
-      
-      
-      
-      
-      
-      
-
-    
-    
-    </li>
-  </ul>
-
-  
-
-  
-
-  
-  
-  
-</aside>
-    
-  </div>
+<div id="avatar">
+<a href="http://example.org/"><img src="/img/vitae.jpg" alt="Vitae"></a>
 </div>
-    <footer role="contentinfo">
-      <p>Copyright &copy; 2022 Author - <a href="https://phiysng.github.io/license/">License</a> -
-        <span class="credit">Powered by <a target="_blank" href="https://gohugo.io" rel="noopener noreferrer">Hugo</a> and <a target="_blank" href="https://github.com/parsiya/hugo-octopress/" rel="noopener noreferrer">Hugo-Octopress</a> theme.
-      </p>
-    </footer>
+<div id="titletext">
+<h1 id="title"><a href="http://example.org/">Vitae</a></h1>
+</div>
+<div id="title-description">
+<p id="subtitle"><a href="https://github.com/dataCobra/hugo-vitae" target="_blank">Vitae</a> is a blog theme for Hugo that focuses on your content.</p>
+<div id="social">
+<nav><ul>
+<li><a href="https://github.com/phiysng"><i title="Github" class="icons fab fa-github"></i></a></li>
+<li><a href="/index.xml"><i title="RSS" class="icons fas fa-rss"></i></a></li>
+<li><a><i title="Switch Dark Mode" class="dark-mode icons fas fa-moon"></i></a></li>
+</ul></nav>
+</div>
+</div>
+<div id="mainmenu">
+<nav>
+<ul>
+<li><a href="/">Home</a></li>
+<li><a href="/post">All Posts</a></li>
+<li><a href="/about">About</a></li>
+<li><a href="/tags">Tags</a></li>
+<li><a href="/categories">Categories</a></li>
+</ul>
+</nav>
+</div>
+</header>
+<main>
 
-    
-    
+<div class="recent-posts">
+<div class="posts">
+<div class="post">
+<div class="post-header">
+<div class="meta">
+<div class="date">
+<span class="day">14</span>
+<span class="rest">Aug 2022</span>
+</div>
+</div>
+<div class="matter">
+<article>
+<h3 class="title small"><a href="/post/cpp_type_traits/">Cpp_type_traits</a></h3>
+<p class="post-meta">
+<span class="post-meta">
 
 
 
-    
-    
-    
+</span>
 
-    
-      <script>
-        var _gaq=[['_setAccount','UA-XXXXX-X'],['_trackPageview']];
-        (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
-        g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';
-        s.parentNode.insertBefore(g,s)}(document,'script'));
-      </script>
-    
-  </body>
+</p>
+<span class="description">Dr Brown的CppCon的讲座的笔记</span>
+</article>
+</div>
+</div>
+</div>
+<div class="post">
+<div class="post-header">
+<div class="meta">
+<div class="date">
+<span class="day">14</span>
+<span class="rest">Aug 2022</span>
+</div>
+</div>
+<div class="matter">
+<article>
+<h3 class="title small"><a href="/post/cpp_variatic_template_of_same_type/">定义同一类型的可变参数模板<sup class="draft-label">DRAFT</sup></a></h3>
+<p class="post-meta">
+<span class="post-meta">
+
+
+
+</span>
+
+</p>
+<span class="description">如何对C&#43;&#43;的可变参数模板做类型限制</span>
+</article>
+</div>
+</div>
+</div>
+<div class="post">
+<div class="post-header">
+<div class="meta">
+<div class="date">
+<span class="day">14</span>
+<span class="rest">Aug 2022</span>
+</div>
+</div>
+<div class="matter">
+<article>
+<h3 class="title small"><a href="/post/my-first-post/">Hello World</a></h3>
+<p class="post-meta">
+<span class="post-meta">
+
+
+
+</span>
+
+</p>
+<span class="description">第一篇文章</span>
+</article>
+</div>
+</div>
+</div>
+
+</div>
+</div>
+</main>
+<footer>
+© Copyright notice | <a href="https://github.com/dataCobra/hugo-vitae" target="_blank">Vitae</a> theme for <a href="https://gohugo.io" target="_blank">Hugo</a>
+</footer><script src="/js/dark-mode.js"></script>
+
+</body>
 </html>
-   
-
-
