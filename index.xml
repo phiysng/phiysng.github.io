@@ -1,37 +1,37 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 	<channel>
-		<title>Vitae</title>
-		<link>http://example.org/</link>
-		<description>Recent content on example.org</description>
+		<title>phiysng</title>
+		<link>https://phiysng.github.io/</link>
+		<description>Recent content on phiysng.github.io</description>
 		<generator>Hugo -- gohugo.io</generator>
-		<language>en-us</language>
+		<language>zh-cn</language>
 		<copyright>© Copyright notice | Vitae theme for Hugo</copyright>
 		<lastBuildDate>Sun, 14 Aug 2022 16:25:18 +0800</lastBuildDate>
-		<atom:link href="http://example.org/index.xml" rel="self" type="application/rss+xml" />
+		<atom:link href="https://phiysng.github.io/index.xml" rel="self" type="application/rss+xml" />
 		<item>
 			<title>Cpp_type_traits</title>
-			<link>http://example.org/post/cpp_type_traits/</link>
+			<link>https://phiysng.github.io/post/cpp_type_traits/</link>
 			<pubDate>Sun, 14 Aug 2022 16:25:18 +0800</pubDate>
-			<guid>http://example.org/post/cpp_type_traits/</guid>
+			<guid>https://phiysng.github.io/post/cpp_type_traits/</guid>
 			<description>
 			Dr Brown的CppCon的讲座的笔记
 			</description>
 		</item>
 		<item>
 			<title>定义同一类型的可变参数模板</title>
-			<link>http://example.org/post/cpp_variatic_template_of_same_type/</link>
+			<link>https://phiysng.github.io/post/cpp_variatic_template_of_same_type/</link>
 			<pubDate>Sun, 14 Aug 2022 16:24:17 +0800</pubDate>
-			<guid>http://example.org/post/cpp_variatic_template_of_same_type/</guid>
+			<guid>https://phiysng.github.io/post/cpp_variatic_template_of_same_type/</guid>
 			<description>
 			如何对C&#43;&#43;的可变参数模板做类型限制
 			</description>
 		</item>
 		<item>
 			<title>Hello World</title>
-			<link>http://example.org/post/my-first-post/</link>
+			<link>https://phiysng.github.io/post/my-first-post/</link>
 			<pubDate>Sun, 14 Aug 2022 16:15:12 +0800</pubDate>
-			<guid>http://example.org/post/my-first-post/</guid>
+			<guid>https://phiysng.github.io/post/my-first-post/</guid>
 			<description>
 			第一篇文章
 			</description>

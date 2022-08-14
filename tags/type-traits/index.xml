@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 	<channel>
-		<title>type traits on Vitae</title>
-		<link>http://example.org/tags/type-traits/</link>
-		<description>Recent content in type traits on example.org</description>
+		<title>type traits on phiysng</title>
+		<link>https://phiysng.github.io/tags/type-traits/</link>
+		<description>Recent content in type traits on phiysng.github.io</description>
 		<generator>Hugo -- gohugo.io</generator>
-		<language>en-us</language>
+		<language>zh-cn</language>
 		<copyright>© Copyright notice | Vitae theme for Hugo</copyright>
 		<lastBuildDate>Sun, 14 Aug 2022 16:25:18 +0800</lastBuildDate>
-		<atom:link href="http://example.org/tags/type-traits/index.xml" rel="self" type="application/rss+xml" />
+		<atom:link href="https://phiysng.github.io/tags/type-traits/index.xml" rel="self" type="application/rss+xml" />
 		<item>
 			<title>Cpp_type_traits</title>
-			<link>http://example.org/post/cpp_type_traits/</link>
+			<link>https://phiysng.github.io/post/cpp_type_traits/</link>
 			<pubDate>Sun, 14 Aug 2022 16:25:18 +0800</pubDate>
-			<guid>http://example.org/post/cpp_type_traits/</guid>
+			<guid>https://phiysng.github.io/post/cpp_type_traits/</guid>
 			<description>
 			Dr Brown的CppCon的讲座的笔记
 			</description>

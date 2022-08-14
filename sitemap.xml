@@ -2,32 +2,32 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://example.org/tags/cpp/</loc>
+    <loc>https://phiysng.github.io/tags/cpp/</loc>
     <lastmod>2022-08-14T16:25:18+08:00</lastmod>
   </url><url>
-    <loc>http://example.org/post/cpp_type_traits/</loc>
+    <loc>https://phiysng.github.io/post/cpp_type_traits/</loc>
     <lastmod>2022-08-14T16:25:18+08:00</lastmod>
   </url><url>
-    <loc>http://example.org/post/</loc>
+    <loc>https://phiysng.github.io/</loc>
     <lastmod>2022-08-14T16:25:18+08:00</lastmod>
   </url><url>
-    <loc>http://example.org/tags/</loc>
+    <loc>https://phiysng.github.io/post/</loc>
     <lastmod>2022-08-14T16:25:18+08:00</lastmod>
   </url><url>
-    <loc>http://example.org/tags/type-traits/</loc>
+    <loc>https://phiysng.github.io/tags/</loc>
     <lastmod>2022-08-14T16:25:18+08:00</lastmod>
   </url><url>
-    <loc>http://example.org/</loc>
+    <loc>https://phiysng.github.io/tags/type-traits/</loc>
     <lastmod>2022-08-14T16:25:18+08:00</lastmod>
   </url><url>
-    <loc>http://example.org/post/cpp_variatic_template_of_same_type/</loc>
+    <loc>https://phiysng.github.io/post/cpp_variatic_template_of_same_type/</loc>
     <lastmod>2022-08-14T16:24:17+08:00</lastmod>
   </url><url>
-    <loc>http://example.org/post/my-first-post/</loc>
+    <loc>https://phiysng.github.io/post/my-first-post/</loc>
     <lastmod>2022-08-14T16:15:12+08:00</lastmod>
   </url><url>
-    <loc>http://example.org/categories/</loc>
+    <loc>https://phiysng.github.io/categories/</loc>
   </url><url>
-    <loc>http://example.org/series/</loc>
+    <loc>https://phiysng.github.io/series/</loc>
   </url>
 </urlset>
